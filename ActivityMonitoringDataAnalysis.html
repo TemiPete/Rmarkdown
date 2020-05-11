@@ -384,8 +384,8 @@ library(ggplot2)</code></pre>
 ##  $ interval: int  0 5 10 15 20 25 30 35 40 45 ...</code></pre>
 <p>The date column is a character vector. Change to a date format.</p>
 <pre class="r"><code>amd$date &lt;- ymd(amd$date)</code></pre>
-<div id="task-1what-is-mean-total-number-of-steps-taken-per-day" class="section level3">
-<h3>Task 1:What is mean total number of steps taken per day?</h3>
+<div id="task-1-what-is-mean-total-number-of-steps-taken-per-day" class="section level3">
+<h3>Task 1: What is mean total number of steps taken per day?</h3>
 <p>Calculate the total number of steps taken per day?</p>
 <pre class="r"><code>total_steps_day &lt;- amd %&gt;% group_by(date) %&gt;% summarize(Total_steps=sum(steps, na.rm=T))
 print(head(total_steps_day))</code></pre>
