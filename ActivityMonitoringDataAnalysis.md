@@ -2,8 +2,7 @@
 title: "ActivityMonitoringData"
 author: "temi"
 date: "5/10/2020"
-output: md_document:
-    variant: markdown_github
+output: md_document
 ---
 
 ```{r setup, include=FALSE}
